@@ -1,4 +1,15 @@
-@impor body {
+:root {
+  --color-dark: rgb(14,14,14);
+  --color-dark2: rgb(39, 39, 39);
+  --color-dark3: rgb(75, 75, 75);
+  --color-white: #fff;
+  --color-yellow: rgb(246, 255, 0);
+  --color-dark-yellow: rgb(255, 132, 0);
+  --color-blue: rgb(0, 153, 255);
+  --color-blue2:rgb(0, 69, 160);
+}
+
+body {
   font-family: "Lato";
   background-color: var(--color-dark);
   color: var(--color-white);
@@ -8,6 +19,7 @@
   gap: 3rem;
   padding: 1rem;
 }
+
 .content {
   display: flex;
   flex-direction: column;
