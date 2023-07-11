@@ -1,0 +1,129 @@
+:root {
+    --color-dark: rgb(14,14,14);
+    --color-dark2: rgb(39, 39, 39);
+    --color-dark3: rgb(75, 75, 75);
+    --color-white: #fff;
+    --color-yellow: rgb(246, 255, 0);
+    --color-dark-yellow: rgb(255, 132, 0);
+    --color-blue: rgb(0, 153, 255);
+    --color-blue2:rgb(0, 69, 160);
+  }
+
+  body{
+    font-family: 'Lato';
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.content--add-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#input-new-task,
+#btn-new-task{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+#input-new-task{
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+#btn-new-task{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#btn-new-task:hover{
+    background-color: var(--color-blue2);
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+#list li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+#list li:hover{
+    background-color: var(--color-dark3);
+    transition: .4s;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    transform: translateX(-5px)
+};
+
+#btn-ok{
+    border: none;
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+    padding: .4rem .8rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#btn-ok:hover{
+    background-color: var(--color-dark-yellow);
+}
+
+.border-icon {
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1rem;
+  };
+  
+.btn-remover {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.img-transparente {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
