@@ -3,8 +3,8 @@
     --color-dark2: rgb(39, 39, 39);
     --color-dark3: rgb(75, 75, 75);
     --color-white: #fff;
-    --color-yellow: rgb(246, 255, 0);
-    --color-dark-yellow: rgb(255, 132, 0);
+    --color-ciano: rgb(86, 218, 255);
+    --color-dark-ciano: rgb(0, 255, 251);
     --color-blue: rgb(0, 153, 255);
     --color-blue2:rgb(0, 69, 160);
   }
@@ -87,7 +87,7 @@
 
 #btn-ok{
     border: none;
-    background-color: var(--color-yellow);
+    background-color: var(--color-ciano);
     color: var(--color-white);
     padding: .4rem .8rem;
     border-radius: 50%;
@@ -101,7 +101,7 @@
 }
 
 #btn-ok:hover{
-    background-color: var(--color-dark-yellow);
+    background-color: var(--color-dark-ciano);
 }
 
 .border-icon {
