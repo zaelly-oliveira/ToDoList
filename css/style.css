@@ -7,10 +7,11 @@
   --color-dark-ciano: rgb(0, 255, 251);
   --color-blue: rgb(0, 153, 255);
   --color-blue2:rgb(0, 69, 160);
+  --color-blue3:rgb(0, 45, 103);
 }
 
-body{
-  font-family: 'Lato';
+body {
+  font-family: "Lato";
   background-color: var(--color-dark);
   color: var(--color-white);
   display: flex;
@@ -20,13 +21,13 @@ body{
   padding: 1rem;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
   gap: 4rem;
 }
 
-.content--add-item{
+.content--add-item {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -34,40 +35,40 @@ body{
 }
 
 #input-new-task,
-#btn-new-task{
+#btn-new-task {
   font-size: 1rem;
   outline: none;
   padding: 1rem;
 }
 
-#input-new-task{
+#input-new-task {
   width: 20rem;
   border-radius: 1rem;
   border-color: var(--color-blue);
 }
 
-#btn-new-task{
+#btn-new-task {
   background-color: var(--color-blue);
   color: var(--color-white);
   border-radius: 50%;
   width: 50px;
   height: 50px;
   cursor: pointer;
-  transition: .4s;
+  transition: 0.4s;
 }
 
-#btn-new-task:hover{
+#btn-new-task:hover {
   background-color: var(--color-blue2);
 }
 
-#list{
+#list {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 0;
 }
 
-#list li{
+#list li {
   list-style-type: none;
   font-size: 1.4rem;
   text-transform: capitalize;
@@ -77,19 +78,18 @@ body{
   transition: transform 0.3s ease;
 }
 
-#list li:hover{
+#list li:hover {
   background-color: var(--color-dark3);
-  transition: .4s;
+  transition: 0.4s;
   border-radius: 1rem;
   padding-left: 1rem;
-  transform: translateX(-5px)
-};
+  transform: translateX(-5px);
+}
 
-#btn-ok{
+#btn-ok {
   border: none;
-  background-color: var(--color-ciano);
-  color: var(--color-white);
-  padding: .4rem .8rem;
+  background-color: var(--color-blue);
+  padding: 0.4rem 0.8rem;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -97,33 +97,33 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: .4s;
+  transition: 0.4s;
 }
 
-#btn-ok:hover{
-  background-color: var(--color-dark-ciano);
+#btn-ok:hover {
+  background-color: var(--color-blue3);
 }
 
 .border-icon {
-margin-top: 20px;
-height: 20px;
-width: 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 1rem;
-font-size: 1rem;
-};
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
 
 .btn-remover {
-position: absolute;
-top: 5px;
-right: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 .img-transparente {
-background-color: transparent;
-border: none;
-padding: 0;
-margin: 0;
-}
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
